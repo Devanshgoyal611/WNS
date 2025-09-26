@@ -18,6 +18,12 @@ WEEK1/
 │   └── Wine-dataset.csv              # Dataset used for analysis
 ├── notebook/
 │   └── WineCluster.ipynb          # Jupyter notebook with full analysis
+├── report/
+│   └── PrimaryProject/
+|   |   |__ Week1-Report.docx       # Report on wine clustering
+|   |__ SecondaryProject/
+|       |__ LetterRecognitionideation.docx       # Ideation Report on Letter Recognition
+│           
 ├── saved_models/
 │   ├── kmeans_model.pkl           # Saved K-Means model
 │   ├── scaler.pkl                 # Saved StandardScaler

@@ -1,0 +1,7 @@
+uploads
+app/__pycache__
+app/models/__pycache__
+app/services/__pycache__
+app/utils/__pycache__
+app/main.py
+Dockerfile

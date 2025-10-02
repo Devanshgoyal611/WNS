@@ -1,0 +1,4 @@
+.env
+\rag_env
+\frontend
+docker-compose.yml

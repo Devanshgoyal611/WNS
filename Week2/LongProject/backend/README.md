@@ -164,7 +164,7 @@ python -m app.main3 serve --host 0.0.0.0 --port 8000
 ### Supported File Types
 - **Text**: `.txt`
 - **Documents**: `.pdf`, `.docx`
-- **Images**: `.jpg`, `.jpeg`, `.png` (with OCR text extraction)
+- https://images**: `.jpg`, `.jpeg`, `.png` (with OCR text extraction)
 
 ## 📖 Usage Examples
 
@@ -220,20 +220,30 @@ curl -X DELETE http://localhost:8000/documents
 ## 📊 Demo Results & Capabilities
 
 ### Document Processing & Management
-- **images/result1.png**: Successful document upload via Postman interface
-- **images/result8.png**: Multi-modal support showing image upload with 2 total documents
-- **images/result10.png**: Comprehensive document information retrieval
-- **images/result11.png**: Efficient document clearance and management
+https://images/result1.png
+**Successful document upload via Postman interface**
+https://images/result8.png
+**Multi-modal support showing image upload with 2 total documents**
+https://images/result10.png
+**Comprehensive document information retrieval**
+https://images/result11.png
+**Efficient document clearance and management**
 
 ### Intelligent Chat Responses
-- **images/result2.png**: Context-aware answers from PDF using Llama 3 with Hybrid RAG
-- **images/result6.png**: PDF summarization using GPT OSS 120B with Vanilla RAG
-- **images/result9.png**: Advanced OCR capabilities extracting names from images
+https://images/result2.png**
+**Context-aware answers from PDF using Llama 3 with Hybrid RAG**
+https://images/result6.png**
+**PDF summarization using GPT OSS 120B with Vanilla RAG**
+https://images/result9.png**
+**Advanced OCR capabilities extracting names from images**
 
 ### Internet Search Integration
-- **images/result3.png**: Controlled responses when question is outside document scope (internet disabled)
-- **images/result4.png**: Enhanced answers using DuckDuckGo search integration
-- **images/result5.png**: Internet search combined with Vanilla RAG strategy
+https://images/result3.png**
+**Controlled responses when question is outside document scope (internet disabled)**
+https://images/result4.png**
+**Enhanced answers using DuckDuckGo search integration**
+https://images/result5.png**
+**Internet search combined with Vanilla RAG strategy**
 
 ## 🎯 Technical Highlights
 

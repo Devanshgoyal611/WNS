@@ -1,0 +1,36 @@
+{
+  "invoice_number": "US-001",
+  "invoice_date": "2019-11-02",
+  "total_amount": "$154.06",
+  "vendor_name": "East Repair Inc.",
+  "vendor_address": "1912 Harvest Lane New York, NY 12210",
+  "vendor_email": null,
+  "vendor_phone": null,
+  "client_name": "John Smith",
+  "client_address": "2 Court Square New York, NY 12210",
+  "due_date": "2019-02-26",
+  "tax_amount": "$9.06",
+  "subtotal": "$145.00",
+  "items": [
+    {
+      "description": "Front and rear brake cables",
+      "quantity": 1,
+      "unit_price": "$100.00",
+      "total": "$100.00"
+    },
+    {
+      "description": "New set of pedal arms",
+      "quantity": 2,
+      "unit_price": "$15.00",
+      "total": "$30.00"
+    },
+    {
+      "description": "Labor 3hrs",
+      "quantity": 3,
+      "unit_price": "$5.00",
+      "total": "$15.00"
+    }
+  ],
+  "extraction_status": "success",
+  "raw_text_length": 579
+}

@@ -1,0 +1,36 @@
+{
+  "invoice_number": "INV-10012",
+  "invoice_date": "2021-03-26",
+  "total_amount": "$1,699.48",
+  "vendor_name": "YOUR COMPANY",
+  "vendor_address": "1234 Your Street City, California 90210 United States",
+  "vendor_email": null,
+  "vendor_phone": "1-888-123-4567",
+  "client_name": "Your Client",
+  "client_address": "1234 Clients Street City, California 90210 United States",
+  "due_date": "2021-04-25",
+  "tax_amount": "$80.93",
+  "subtotal": "$1,798.39",
+  "items": [
+    {
+      "description": "Services",
+      "quantity": 10,
+      "unit_price": "$55.00",
+      "total": "$550.00"
+    },
+    {
+      "description": "Tax Consulting",
+      "quantity": 45,
+      "unit_price": "$75.00",
+      "total": "$1,125.00"
+    },
+    {
+      "description": "Tax Materials",
+      "quantity": 1,
+      "unit_price": "$123.39",
+      "total": "$123.39"
+    }
+  ],
+  "extraction_status": "success",
+  "raw_text_length": 755
+}

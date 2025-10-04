@@ -11,6 +11,7 @@ A sophisticated backend API for a Multi-Modal Retrieval-Augmented Generation (RA
 - **Vector Storage**: Hybrid retrieval using Pinecone for dense vectors and BM25 for sparse vectors
 - **Knowledge Graphs**: Graph-based RAG using NetworkX for relationship extraction
 - **Document Management**: Comprehensive document upload, listing, and management
+- **Langsmith Tracer**: Comprehensive observability of llms working 
 
 ## 🏗️ Architecture
 
@@ -57,6 +58,7 @@ backend/
 │   ├── result9.png           # Image OCR name extraction
 │   ├── result10.png          # Document list retrieval
 │   └── result11.png          # Document deletion
+│   └── result12.png          # Langsmith Tracer
 ├── requirements.txt          # Python dependencies
 ├── .env                      # Environment variables
 └── README.md                 # This file
@@ -244,6 +246,10 @@ curl -X DELETE http://localhost:8000/documents
 **Enhanced answers using DuckDuckGo search integration**
 ![image](images/result5.png)
 **Internet search combined with Vanilla RAG strategy**
+
+### Langsmith Tracer
+![image](images/result12.png)
+**Langsmith observability of hybrid search**
 
 ## 🎯 Technical Highlights
 

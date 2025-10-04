@@ -6,6 +6,7 @@ def setup_observability():
     if os.getenv('LANGSMITH_API_KEY'):
         client = Client()
         tracer = LangChainTracer()
+        os.environ["LANGCHAIN_TRACING_V2"] = "true"
         return tracer
     return None
 
